@@ -1,0 +1,906 @@
+(kicad_pcb
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(general
+		(thickness 1.6)
+		(legacy_teardrops no)
+	)
+	(paper "A4")
+	(layers
+		(0 "F.Cu" signal)
+		(31 "B.Cu" signal)
+		(32 "B.Adhes" user "B.Adhesive")
+		(33 "F.Adhes" user "F.Adhesive")
+		(34 "B.Paste" user)
+		(35 "F.Paste" user)
+		(36 "B.SilkS" user "B.Silkscreen")
+		(37 "F.SilkS" user "F.Silkscreen")
+		(38 "B.Mask" user)
+		(39 "F.Mask" user)
+		(40 "Dwgs.User" user "User.Drawings")
+		(41 "Cmts.User" user "User.Comments")
+		(42 "Eco1.User" user "User.Eco1")
+		(43 "Eco2.User" user "User.Eco2")
+		(44 "Edge.Cuts" user)
+		(45 "Margin" user)
+		(46 "B.CrtYd" user "B.Courtyard")
+		(47 "F.CrtYd" user "F.Courtyard")
+		(48 "B.Fab" user)
+		(49 "F.Fab" user)
+		(50 "User.1" user)
+		(51 "User.2" user)
+		(52 "User.3" user)
+		(53 "User.4" user)
+		(54 "User.5" user)
+		(55 "User.6" user)
+		(56 "User.7" user)
+		(57 "User.8" user)
+		(58 "User.9" user)
+	)
+	(setup
+		(pad_to_mask_clearance 0)
+		(allow_soldermask_bridges_in_footprints no)
+		(aux_axis_origin 123.952 83.566)
+		(pcbplotparams
+			(layerselection 0x00010fc_ffffffff)
+			(plot_on_all_layers_selection 0x0000000_00000000)
+			(disableapertmacros no)
+			(usegerberextensions no)
+			(usegerberattributes yes)
+			(usegerberadvancedattributes yes)
+			(creategerberjobfile yes)
+			(dashed_line_dash_ratio 12)
+			(dashed_line_gap_ratio 3)
+			(svgprecision 4)
+			(plotframeref no)
+			(viasonmask no)
+			(mode 1)
+			(useauxorigin no)
+			(hpglpennumber 1)
+			(hpglpenspeed 20)
+			(hpglpendiameter 15)
+			(pdf_front_fp_property_popups yes)
+			(pdf_back_fp_property_popups yes)
+			(dxfpolygonmode yes)
+			(dxfimperialunits yes)
+			(dxfusepcbnewfont yes)
+			(psnegative no)
+			(psa4output no)
+			(plotreference yes)
+			(plotvalue yes)
+			(plotfptext yes)
+			(plotinvisibletext no)
+			(sketchpadsonfab no)
+			(subtractmaskfromsilk no)
+			(outputformat 1)
+			(mirror no)
+			(drillshape 0)
+			(scaleselection 1)
+			(outputdirectory "gerbers")
+		)
+	)
+	(net 0 "")
+	(footprint "MountingHole:MountingHole_2.7mm_M2.5"
+		(layer "F.Cu")
+		(uuid "00ac6c93-897b-4f3d-9180-d6e54e235a90")
+		(at 154.432 69.596)
+		(descr "Mounting Hole 2.7mm, no annular, M2.5")
+		(tags "mounting hole 2.7mm no annular m2.5")
+		(property "Reference" "H2"
+			(at 0 -3.7 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "1831cb25-0308-4d5e-8599-97dc5dbc53ce")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 0 3.7 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7bd0616a-7bdf-4028-b4a9-809516f099ca")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7945b3a9-d337-44dd-90ea-64a8fe20183b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bc1ced12-6660-4b9d-8f83-23aa4eb51b2c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6974cd7b-8dd4-4ab7-88af-e413fa7bb03d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*")
+		(path "/392685c0-b6b0-4904-9d9b-780034bb23f1")
+		(sheetname "Root")
+		(sheetfile "Atari-SIO-Socket-Assembly-Jig.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 2.7 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "0d660149-f9f1-474c-80db-30f45ee97e8f")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.95 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "5210b495-8951-458a-9bba-957e4912a011")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "fc42a9b7-2940-493f-92a9-c8d799af2c64")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 2.7 2.7)
+			(drill 2.7)
+			(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
+				"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
+				"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
+				"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
+				"In29.Cu" "In30.Cu"
+			)
+			(uuid "eced01cb-a654-4c65-919a-71c433d5a1fe")
+		)
+	)
+	(footprint "MountingHole:MountingHole_2.7mm_M2.5"
+		(layer "F.Cu")
+		(uuid "06bc4052-beec-462e-a7bd-dc3b0ddfdb4d")
+		(at 125.984 69.596)
+		(descr "Mounting Hole 2.7mm, no annular, M2.5")
+		(tags "mounting hole 2.7mm no annular m2.5")
+		(property "Reference" "H1"
+			(at 0 -3.7 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "1daf373b-c333-4657-9cd9-b75c617c0c61")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 0 3.7 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bf553974-760c-4286-80d1-408e0fafc2b7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6332a0b2-ec57-4170-895c-8cf1c07afcad")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8959d8a8-621a-497e-b747-3fba4fc8cb7a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "834379cf-e6a3-46e4-9852-d15ad300727b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*")
+		(path "/682acd3b-a250-403f-a2d2-93c08d305c6d")
+		(sheetname "Root")
+		(sheetfile "Atari-SIO-Socket-Assembly-Jig.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 2.7 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "53547846-b1d8-4d9d-852d-2900b1ac4c71")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.95 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "6865ea36-f01e-43fe-aca1-90158f40373d")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "d4736bf7-c42a-4b37-ba74-0503df2e95d7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 2.7 2.7)
+			(drill 2.7)
+			(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
+				"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
+				"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
+				"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
+				"In29.Cu" "In30.Cu"
+			)
+			(uuid "7bd1374c-0568-456b-bf73-75f4424f42b2")
+		)
+	)
+	(footprint "MountingHole:MountingHole_2.7mm_M2.5"
+		(layer "F.Cu")
+		(uuid "583c68a6-ae8a-451f-85f6-6258ae28698f")
+		(at 125.984 81.534)
+		(descr "Mounting Hole 2.7mm, no annular, M2.5")
+		(tags "mounting hole 2.7mm no annular m2.5")
+		(property "Reference" "H3"
+			(at 0 -3.7 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "cbce6cff-ff46-4e45-9196-44bb9cffd81a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 0 3.7 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b7782dea-d068-4326-904b-5f67fe248b5a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9e729fe6-0e08-4f73-a630-9bc2b44152fa")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6d5b2cc8-8c38-4b8f-8c25-a5dd4cf01638")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7305d463-c48a-4c4a-bf91-767af935a7fd")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*")
+		(path "/0985155e-7577-4815-a1ee-36b061fae2f8")
+		(sheetname "Root")
+		(sheetfile "Atari-SIO-Socket-Assembly-Jig.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 2.7 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "47da6b36-06fd-4316-ac38-e0c3d799c1bd")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.95 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "2b3e12ea-ae4d-4ff0-9a71-d2b6fb8c867a")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "026ae1d2-bad6-4649-8b9d-767370583ea3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 2.7 2.7)
+			(drill 2.7)
+			(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
+				"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
+				"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
+				"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
+				"In29.Cu" "In30.Cu"
+			)
+			(uuid "59bab523-1ce3-499c-b10d-e53f666dac08")
+		)
+	)
+	(footprint "MountingHole:MountingHole_2.7mm_M2.5"
+		(layer "F.Cu")
+		(uuid "6966eb50-ae5d-4b7f-b4e2-8f06304b7e3a")
+		(at 154.432 81.534)
+		(descr "Mounting Hole 2.7mm, no annular, M2.5")
+		(tags "mounting hole 2.7mm no annular m2.5")
+		(property "Reference" "H4"
+			(at 0 -3.7 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "40eaf0ec-b721-4377-83fa-55881b5716c5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 0 3.7 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3a046d76-0dad-4dd1-a165-ecb9b0ca4e8a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "adcb499a-894d-43eb-b00d-b1e401a2b58c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4c88affe-feb6-40f2-a22d-9224a4e12911")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3f914d52-83fb-4fd9-b9a8-72576c74ed8c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*")
+		(path "/b8a10b31-0dfb-44d6-a90f-46ea351ee92c")
+		(sheetname "Root")
+		(sheetfile "Atari-SIO-Socket-Assembly-Jig.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 2.7 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "a80eba9c-26d7-4e09-8748-c9be20734355")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.95 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "f478d4ba-19db-40e7-8ace-091c04f624a1")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "e18c106f-0e2d-44a1-b3d1-6a2c2c7b9a5e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 2.7 2.7)
+			(drill 2.7)
+			(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
+				"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
+				"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
+				"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
+				"In29.Cu" "In30.Cu"
+			)
+			(uuid "7e80bbc9-feff-4569-bf85-c07bab814bb8")
+		)
+	)
+	(footprint "Tersteeg:Atari SIO 3D Printed Socket"
+		(layer "F.Cu")
+		(uuid "74fe0c5b-e05c-47c4-b22f-d0d15d841d20")
+		(at 129.596 83.036)
+		(property "Reference" "J1"
+			(at -1.453 -8.106 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "45bd4e9f-ec6f-426f-abc6-ac6143440e3e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "SIO_SOCKET"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "1f0c1712-0a85-4fc3-91ba-e68b1093da79")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Tersteeg:Atari SIO 3D Printed Socket"
+			(at 0 -6.096 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "63b29450-b0fd-4496-9788-91a68715d81b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 -6.096 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9b5487bb-3140-4227-8eaa-78b9c8e7a727")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 -6.096 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c64dd64e-7b20-48e1-bd82-a4ebd91a35ad")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/2d5dd515-ca9a-4c7f-ad99-080b09c644fd")
+		(sheetname "Root")
+		(sheetfile "Atari-SIO-Socket-Assembly-Jig.kicad_sch")
+		(attr through_hole)
+		(fp_rect
+			(start -5.0165 -14.986)
+			(end 26.3525 0)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill none)
+			(layer "Dwgs.User")
+			(uuid "342988b6-0f4b-4371-8ec2-36c6a126693c")
+		)
+		(fp_rect
+			(start -3.937 -12.954)
+			(end 25.273 -1.524)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill none)
+			(layer "Dwgs.User")
+			(uuid "b05c25f1-61d6-48dd-b0a2-2d90400afa7b")
+		)
+		(fp_rect
+			(start -5.334 -15.24)
+			(end 26.67 0.254)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill none)
+			(layer "B.CrtYd")
+			(uuid "b8ec5820-b78a-4c94-9b3d-60c6b836059c")
+		)
+		(fp_rect
+			(start -5.334 -15.24)
+			(end 26.67 0.254)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "d69d9e39-b6a8-407d-ab47-690ca1b77c93")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 2.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "71dfbe22-06e3-422c-abf5-5c848a989508")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 -6.096)
+			(size 1.15 1.15)
+			(drill 1.15)
+			(layers "*.Cu" "*.Mask")
+			(pinfunction "CLOCK_INPUT")
+			(pintype "output")
+			(uuid "9a7febb4-21e8-4070-94bc-78eb07b96a8c")
+		)
+		(pad "" np_thru_hole circle
+			(at 1.778 -9.144)
+			(size 1.15 1.15)
+			(drill 1.15)
+			(layers "*.Cu" "*.Mask")
+			(pinfunction "CLOCK_OUTPUT")
+			(pintype "input")
+			(uuid "174fb630-3582-4936-b8d8-0f4208377ebb")
+		)
+		(pad "" np_thru_hole circle
+			(at 3.556 -6.096)
+			(size 1.15 1.15)
+			(drill 1.15)
+			(layers "*.Cu" "*.Mask")
+			(pinfunction "DATA_INPUT")
+			(pintype "output")
+			(uuid "7d79ef41-f50e-4618-b305-ec462ed04aa0")
+		)
+		(pad "" np_thru_hole circle
+			(at 5.334 -9.144)
+			(size 1.15 1.15)
+			(drill 1.15)
+			(layers "*.Cu" "*.Mask")
+			(pinfunction "GROUND1")
+			(pintype "power_in")
+			(uuid "edb27cae-968e-45ab-b832-eafb6fd127d8")
+		)
+		(pad "" np_thru_hole circle
+			(at 7.112 -6.096)
+			(size 1.15 1.15)
+			(drill 1.15)
+			(layers "*.Cu" "*.Mask")
+			(pinfunction "DATA_OUTPUT")
+			(pintype "input")
+			(uuid "64d96ee5-338f-4f09-a77f-95e496055efe")
+		)
+		(pad "" np_thru_hole circle
+			(at 8.89 -9.144)
+			(size 1.15 1.15)
+			(drill 1.15)
+			(layers "*.Cu" "*.Mask")
+			(pinfunction "GROUND2")
+			(pintype "power_in")
+			(uuid "4bad1be6-3b02-48e9-9df1-66135c454efd")
+		)
+		(pad "" np_thru_hole circle
+			(at 10.668 -6.096)
+			(size 1.15 1.15)
+			(drill 1.15)
+			(layers "*.Cu" "*.Mask")
+			(pinfunction "COMMAND")
+			(pintype "input")
+			(uuid "40158569-21bc-4253-9f00-04c3a923fb45")
+		)
+		(pad "" np_thru_hole circle
+			(at 12.446 -9.144)
+			(size 1.15 1.15)
+			(drill 1.15)
+			(layers "*.Cu" "*.Mask")
+			(pinfunction "MOTOR_CONTROL")
+			(pintype "input")
+			(uuid "59a69096-38de-4526-9b04-c8b5cff85a3a")
+		)
+		(pad "" np_thru_hole circle
+			(at 14.224 -6.096)
+			(size 1.15 1.15)
+			(drill 1.15)
+			(layers "*.Cu" "*.Mask")
+			(pinfunction "PROCEED")
+			(pintype "bidirectional")
+			(uuid "d2b5c9cb-bd9f-4153-a017-a39a3a2059d8")
+		)
+		(pad "" np_thru_hole circle
+			(at 16.002 -9.144)
+			(size 1.15 1.15)
+			(drill 1.15)
+			(layers "*.Cu" "*.Mask")
+			(pinfunction "+5V/READY")
+			(pintype "power_in")
+			(uuid "be578ac5-9d66-4b75-bd7a-554597de7055")
+		)
+		(pad "" np_thru_hole circle
+			(at 17.78 -6.096)
+			(size 1.15 1.15)
+			(drill 1.15)
+			(layers "*.Cu" "*.Mask")
+			(pinfunction "AUDIO_INPUT")
+			(pintype "output")
+			(uuid "72f1b034-3594-44aa-8b2b-d2dcbc9c830e")
+		)
+		(pad "" np_thru_hole circle
+			(at 19.558 -9.144)
+			(size 1.15 1.15)
+			(drill 1.15)
+			(layers "*.Cu" "*.Mask")
+			(pinfunction "+12V")
+			(pintype "power_in")
+			(uuid "ae2ea25c-1304-4cf5-8001-20c84e5bffd6")
+		)
+		(pad "" np_thru_hole circle
+			(at 21.336 -6.096)
+			(size 1.15 1.15)
+			(drill 1.15)
+			(layers "*.Cu" "*.Mask")
+			(pinfunction "INTERRUPT")
+			(pintype "output")
+			(uuid "b220b9f9-e3b2-4c00-8b5b-ba2cc602f783")
+		)
+	)
+	(gr_line
+		(start 124.936 66.548)
+		(end 155.48 66.548)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "32c8d956-3b2b-4d1f-ab56-27dee037d71f")
+	)
+	(gr_arc
+		(start 155.48 66.548)
+		(mid 156.894214 67.133786)
+		(end 157.48 68.548)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "4299ffa4-a407-44b2-89ed-39e00f03385c")
+	)
+	(gr_arc
+		(start 122.936 68.548)
+		(mid 123.521786 67.133786)
+		(end 124.936 66.548)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "4f3c3ad0-fde4-4228-b165-bebd06e7e5d8")
+	)
+	(gr_arc
+		(start 157.48 82.582)
+		(mid 156.894214 83.996214)
+		(end 155.48 84.582)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "764e024c-0f24-410c-87e8-6a371d74172f")
+	)
+	(gr_line
+		(start 122.936 82.582)
+		(end 122.936 68.548)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "8e0316a3-671a-47b9-a1a1-26338479c65b")
+	)
+	(gr_arc
+		(start 124.936 84.582)
+		(mid 123.521786 83.996214)
+		(end 122.936 82.582)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "8ed5d15a-2ca2-4261-9089-d3282a2fd868")
+	)
+	(gr_line
+		(start 155.48 84.582)
+		(end 124.936 84.582)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "9102f72d-7d0d-411c-9234-2dec0f1ece07")
+	)
+	(gr_line
+		(start 157.48 68.548)
+		(end 157.48 82.582)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "a56d2e87-bd09-42d4-8069-0a5ac664647d")
+	)
+	(gr_text "SIO Jack Assembly Jig"
+		(at 131.572 69.596 0)
+		(layer "F.SilkS")
+		(uuid "b45869ce-35f8-4249-be2a-2f186d288dbe")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+)
